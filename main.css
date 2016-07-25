@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2016, 8:20:40 AM
+    Author     : jakeMalwitz
+*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Futura, "Times New Roman", Arial;
+}
+body {
+    background: url(Banner2.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+
+
+/* Header */
+
+.header {
+   text-align: center;
+}
+
+#pic {
+padding: 5px;
+margin: 20px 0px 10px 0px;
+background-color: white;
+border: 5px white;
+height: auto;
+width: auto;
+max-height: 320px;
+max-width: 320px;
+border-radius: 50px 15px 50px 15px;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.header h1 {
+    color: white;
+    margin: 10px 2px 10px 2px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 4px 4px 4px gray;
+}
+
+.header ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.header ul li {
+    display: inline;
+}
+
+.header ul li a {
+   color: white;
+   font-size: 18px; 
+   text-decoration: none;
+}
+
+#button {
+    background-color: gray;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding: 4px 8px 4px 8px;
+    margin: 2px;
+    border-radius: 12px;
+}
+
+#button:hover {
+    background-color: white;
+    color: gray;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.click {
+color: white;
+font-size: 72px;
+text-shadow: 4px 4px 4px gray;
+text-align: center;
+margin: 200px;
+}
+
+.click:hover {
+color: gray;
+text-shadow: 4px 4px 4px white;
+}
